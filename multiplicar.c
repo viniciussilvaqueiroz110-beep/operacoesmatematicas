@@ -1,13 +1,6 @@
-#include <stdio.h>
-
-void main()
+int multiplicar (int numero1,int numero2)
 {
-    int numero1,numero2,contador1,contador2,produto;
-
-    printf("Número 1:");
-    scanf("%d",&numero1);
-    printf("Número 2:");
-    scanf("%d",&numero2);
+    int contador1,contador2,produto;
 
     contador1 = 0;
     contador2 = 0;
@@ -21,6 +14,6 @@ void main()
         }
         contador1++;    
     }
-    printf("\nO produto é igual a %d\n",produto);    
+    return produto;
 }
 
